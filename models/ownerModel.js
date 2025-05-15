@@ -29,7 +29,7 @@ const ownerSchema = new mongoose.Schema({
   },
   gstin: {
     type: String,
-    required: true,
+    default: null,
   },
 });
 
